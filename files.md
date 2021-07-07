@@ -16,9 +16,9 @@ Please copy this code to your mission's init.sqf file.
 // Example: _logPath = (["dirname"] call _getNewLogFilePath);  ->  "dirname\\20210725111559.log"
 
 _getNewLogFilePath = {
-	_directory = _this select 0;
+    _directory = _this select 0;
     _timeStr = ["YmdHis"] call fn_vbs_dateToString;
-	_directory + "\\" + _timeStr + ".log"
+    _directory + "\\" + _timeStr + ".log"
 };
 
 
@@ -29,9 +29,9 @@ _getNewLogFilePath = {
 // Scope: public
 // Example: _status = (["log message text"] call write2LogFile);  ->  writes "log message text" to file
 
-	write2LogFile = {
-		_logStr = _this select 0;
-		pluginFunction ["VBSPluginFileAccess","AppendLine(" + logFilePath + ")@" + _logStr ]
+write2LogFile = {
+    _logStr = _this select 0;
+    pluginFunction ["VBSPluginFileAccess","AppendLine(" + logFilePath + ")@" + _logStr ]
 };
 
 
@@ -43,9 +43,9 @@ _getNewLogFilePath = {
 // Scope: public
 // Example: _status = (["log message text"] call write2LogFile);  ->  writes "log message text" to file
 
-	logMsg = {
-		_logStr = (str time) + ", " + (_this select 0);
-		[_logStr] call write2LogFile
+logMsg = {
+    _logStr = (str time) + ", " + (_this select 0);
+    [_logStr] call write2LogFile
 };
 
 

@@ -2,7 +2,7 @@
 
 This repository contains VBS4 reusable code snippets. 
 The code snippets are usually copied into the file init.sqf of your particular VBS4 mission. 
-The snippets grouped into following categories
+The snippets are grouped into following categories
 - [files](files.md)
 - [units](units.md)
 

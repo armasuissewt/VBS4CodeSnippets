@@ -40,5 +40,25 @@ _array = allUnits;
 
 ## Create Units
 ```
-_unit = (createGroup west) createUnit [typeOf player, getPos ctr, [], 0, "NONE"]
+showShotTrajectories true;
+
+
+// number of units to generate
+n = 50;
+
+for [{_i=0}, {_i<n}, {_i=_i+1}] do {
+
+	// compute the unit position relative to the position of 
+    // the object "ctr" (or whatever you want)
+    _p = (getPos ctr);
+    _x = _p select 0;
+    _y = _p select 1;
+    _z = _p select 2; 
+    _up = [_x - _i, _y - _i, _z];
+    
+	// creates the same unit type as the player without belonging to any group
+    _unit = (createGroup west) createUnit [typeOf player, _up, [], 0, "NONE"];
+};
+
+
 ```

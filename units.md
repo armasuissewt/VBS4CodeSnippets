@@ -37,3 +37,8 @@ _array = allUnits;
 } forEach _array;
 
 ```
+
+## Create Units
+```
+_unit = (createGroup west) createUnit [typeOf player, getPos ctr, [], 0, "NONE"]
+```

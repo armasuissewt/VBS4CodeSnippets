@@ -5,4 +5,5 @@ Here you find a complete example on how to define a custom dialog [custom-dialog
 <p align="center"><img alt="smoothing" src="https://github.com/armasuissewt/VBS4CodeSnippets/blob/main/rsc/commands.png" width="60%"></p>
 <p align="center"><img alt="smoothing" src="https://github.com/armasuissewt/VBS4CodeSnippets/blob/main/rsc/ui-dialog.png" width="60%"></p>
 
-Here is an example of packing the dialog into a addon [dialog_addon.zip](https://github.com/armasuissewt/VBS4CodeSnippets/blob/main/rsc/dialog_addon.zip).
+Here is an example of packing the dialog into a addon [dialog_addon.zip](https://github.com/armasuissewt/VBS4CodeSnippets/blob/main/rsc/dialog_addon.zip). You can call it with cutRsc ["vbs_AddonRscTextTest", "PLAIN"];
+

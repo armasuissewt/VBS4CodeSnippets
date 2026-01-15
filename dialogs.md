@@ -7,3 +7,5 @@ Here you find a complete example on how to define a custom dialog [custom-dialog
 
 Here is an example of packing the dialog into a addon [dialog_addon.zip](https://github.com/armasuissewt/VBS4CodeSnippets/blob/main/rsc/dialog_addon.zip). You can call it with cutRsc ["vbs_AddonRscTextTest", "PLAIN"];
 
+Here you find a modal dialog version packed into a addon [dialog_addon_modal.zip](https://github.com/armasuissewt/VBS4CodeSnippets/blob/main/rsc/dialog_addon_modal.zip). You can call it with createDialog "vbs_AddonRscTextTest";
+

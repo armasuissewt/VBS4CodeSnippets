@@ -6,6 +6,7 @@ The snippets are grouped into following categories
 - [files](files.md)
 - [units](units.md)
 - [visualisation](visualisation.md)
+- [dialogs](dialogs.md)
 
 Feel free to contribute to this repository and, please, let us know if you discover issues.
 

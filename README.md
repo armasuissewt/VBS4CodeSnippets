@@ -8,6 +8,7 @@ The snippets are grouped into following categories
 - [visualisation](visualisation.md)
 - [maps](maps.md)
 - [dialogs](dialogs.md)
+- [Event Handlers](eventhandler.md)
 
 Feel free to contribute to this repository and, please, let us know if you discover issues.
 

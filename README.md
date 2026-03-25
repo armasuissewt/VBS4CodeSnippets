@@ -9,6 +9,7 @@ The snippets are grouped into following categories
 - [maps](maps.md)
 - [dialogs](dialogs.md)
 - [event handlers](eventhandler.md)
+- [models](models.md)
 
 Feel free to contribute to this repository and, please, let us know if you discover issues.
 
